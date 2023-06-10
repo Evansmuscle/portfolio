@@ -1,7 +1,13 @@
 "use client";
 
-import { urbanist } from "@/app/layout";
-import { ReactNode, useState } from "react";
+import { useState } from "react";
+
+// Fonts
+import { Urbanist } from "next/font/google";
+const urbanist = Urbanist({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
 
 interface Props {
   linkMap: Array<[string, string]>;

@@ -1,16 +1,11 @@
 "use client";
 
 import "./globals.css";
-import { Urbanist, Turret_Road } from "next/font/google";
-import { Canvas } from "@react-three/fiber";
+import { Turret_Road } from "next/font/google";
 
 import { Contact, Copyright, Hamburger, Logo } from "./components";
 
-export const urbanist = Urbanist({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
-export const turretRoad = Turret_Road({
+const turretRoad = Turret_Road({
   subsets: ["latin"],
   weight: ["400", "500", "700", "800"],
 });
