@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const linkMap: Array<[string, string]> = [
-    ["home", "/home"],
+    ["home", "/"],
     ["work", "/work"],
     ["about", "/about-me"],
     ["contact", "/contact"],
